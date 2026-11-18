@@ -1,0 +1,19 @@
+# Sanal ortam
+.venv/
+venv/
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+
+# Editör ayarları
+.vscode/
+
+# Gerçek (kişisel) sipariş verisi - ASLA yüklenmemeli
+orders.xlsx
+
+# Ödev raporu için alınmış ekran görüntüleri (gerçek sipariş no. içerir)
+report_screenshots/
+
+# Excel'in açıkken oluşturduğu geçici dosyalar
+~$*.xlsx
